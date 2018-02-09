@@ -13,7 +13,7 @@
             @include('partials._message')
 
             
-            {{ Auth::check() ? "Logged in" : "Logged out"}}
+            {{-- {{ Auth::check() ? "Logged in" : "Logged out"}} --}}
 
 
 
